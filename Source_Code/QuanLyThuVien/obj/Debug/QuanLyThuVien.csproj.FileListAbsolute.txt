@@ -1,0 +1,87 @@
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.g.cs
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.g.cs
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.cache
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.lref
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\UILogin.g.cs
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.baml
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.baml
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\UILogin.baml
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.g.resources
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\Test.g.cs
+C:\Users\Admins\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\Test.baml
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\bin\Debug\MaterialDesignColors.dll
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\MainWindow.g.cs
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\UILogin.g.cs
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\App.g.cs
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.cache
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.lref
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\App.baml
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\MainWindow.baml
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\UILogin.baml
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.g.resources
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\TrangChu.g.cs
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\TrangChu.baml
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\Book.g.cs
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\Book.baml
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\ManagerLibrary.g.cs
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\ManagerLibrary.baml
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\ManagerBook.g.cs
+C:\Users\CPU12392-local\Desktop\PTTK\New folder\Source_Code\QuanLyThuVien\obj\Debug\ManagerBook.baml
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\Book.g.cs
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\MainWindow.g.cs
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\ManagerBook.g.cs
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\ManagerLibrary.g.cs
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\TrangChu.g.cs
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\UILogin.g.cs
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\App.g.cs
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.cache
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.lref
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\App.baml
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\Book.baml
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\MainWindow.baml
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\ManagerBook.baml
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\ManagerLibrary.baml
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\TrangChu.baml
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\UILogin.baml
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.g.resources
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
