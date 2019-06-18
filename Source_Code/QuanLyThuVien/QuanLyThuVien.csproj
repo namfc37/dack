@@ -90,9 +90,11 @@
     <Compile Include="QuanLyThuVienDAO\BookDAO.cs" />
     <Compile Include="QuanLyThuVienDAO\DataProcess.cs" />
     <Compile Include="QuanLyThuVienDAO\CustomerDAO.cs" />
+    <Compile Include="QuanLyThuVienDAO\KindOfBookDAO.cs" />
     <Compile Include="QuanLyThuVienDAO\SingletonDataProvider.cs" />
     <Compile Include="QuanLyThuVienDTO\BookMgr.cs" />
     <Compile Include="QuanLyThuVienDTO\Customer.cs" />
+    <Compile Include="QuanLyThuVienDTO\KindOfBook.cs" />
     <Compile Include="TrangChu.xaml.cs">
       <DependentUpon>TrangChu.xaml</DependentUpon>
     </Compile>

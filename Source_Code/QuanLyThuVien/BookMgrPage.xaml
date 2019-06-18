@@ -94,12 +94,17 @@
                 </StackPanel>
             </Grid>
             <Grid Grid.Row="1">
-                <ListView Margin="15" Name="ListItem">
+                <ListView Margin="15" Name="ListBook">
                     <ListView.View>
                         <GridView>
-                            <GridViewColumn Header="ID" DisplayMemberBinding="{Binding ID}"></GridViewColumn>
-                            <GridViewColumn Header="TenSP" DisplayMemberBinding="{Binding TenSanpham}"></GridViewColumn>
-                            <GridViewColumn Header="Gia" DisplayMemberBinding="{Binding Gia1sp}"></GridViewColumn>
+                            <GridViewColumn Header="ID" DisplayMemberBinding="{Binding idSach}"></GridViewColumn>
+                            <GridViewColumn Header="Tên Sách" DisplayMemberBinding="{Binding TenSach}"></GridViewColumn>
+                            <GridViewColumn Header="Mã Loại" DisplayMemberBinding="{Binding LoaiSach}"></GridViewColumn>
+                            <GridViewColumn Header="Số Lượng" DisplayMemberBinding="{Binding SoLuong}"></GridViewColumn>
+                            <GridViewColumn Header="Giá" DisplayMemberBinding="{Binding Gia}"></GridViewColumn>
+                            <GridViewColumn Header="Năm Sản Xuất" DisplayMemberBinding="{Binding NamSanXuat}"></GridViewColumn>
+                            <GridViewColumn Header="Nhà Sản Xuất" DisplayMemberBinding="{Binding NhaSanXuat}"></GridViewColumn>
+                            <GridViewColumn Header="Vị Trí" DisplayMemberBinding="{Binding ViTri}"></GridViewColumn>
                         </GridView>
                     </ListView.View>
                 </ListView>

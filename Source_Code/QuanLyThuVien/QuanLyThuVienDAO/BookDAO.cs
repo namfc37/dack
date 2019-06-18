@@ -14,6 +14,12 @@ namespace QuanLyThuVien.QuanLyThuVienDAO
         {
 
         }
+        public DataTable FindBook(String name)
+        {
+            String sql = " Select * from Sach Where TenSach LIKE '%"+name+"%'";
+            return SingletonDataProvider.Ins.DataBase.truyvan(sql);
+
+        }
 
         public DataTable LoadList()
         {
@@ -30,7 +36,7 @@ namespace QuanLyThuVien.QuanLyThuVienDAO
 
         public void Update(BookMgr book)
         {
-            String sql = "Update Sach  TenSach ='" + book.TenSach + "', LoaiSach=" + book.LoaiSach + ",SoLuong= " + book.SoLuong + ",Gia= " + book.Gia + ",NamSanXuat= " + book.NamSanXuat + ",ViTri =" + book.ViTri + ") ";
+            String sql = "Update Sach  TenSach ='" + book.TenSach + "', LoaiSach=" + book.LoaiSach + ",SoLuong= " + book.SoLuong + ",Gia= " + book.Gia + ",NamSanXuat= " + book.NamSanXuat + ",ViTri =" + book.ViTri + " Where idSach = "+book.idSach;
             SingletonDataProvider.Ins.DataBase.truyvan(sql);
         }
 

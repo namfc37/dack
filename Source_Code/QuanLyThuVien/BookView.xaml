@@ -40,15 +40,16 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <Canvas Height="100">
-                            <Image Source="{Binding Anh}" Width="250" ></Image>
-
-                            <TextBlock Text="{Binding idSach}" Margin="300,5,350,5"></TextBlock>
+                            
                             <TextBlock Text="{Binding TenSach}" Margin="550,5,150,5"></TextBlock>
                             <TextBlock Text="{Binding Gia}" Margin="650,5,0,5"></TextBlock>
+                            <TextBlock Text="{Binding SoLuong}" Margin="800,5,0,5"></TextBlock>
+                            <Button Margin="850,5,0,5"></Button>
                         </Canvas>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            
         </Grid>
     </Grid>
 </Page>

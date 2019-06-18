@@ -42,7 +42,8 @@ namespace QuanLyThuVien
                     //HostWindowInFrame(FrameMain, new ManagerLibrary());
                     FrameMain.Content = new ManagerMain();
                     break;
-                case 3:                  
+                case 3:
+                    FrameMain.Content = new borrowBook();
                     break;
                 case 4:                  
                     break;

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyThuVien.QuanLyThuVienDAO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,13 @@ namespace QuanLyThuVien
     /// </summary>
     public partial class UserMgrPage : Page
     {
+
+        private CustomerDAO customerDAO = new CustomerDAO();
         public UserMgrPage()
         {
             InitializeComponent();
+            var listItem = customerDAO.LoadList();
+            ListUser.ItemsSource = listItem.DefaultView;
         }
         private void Button_AnswerClick(object sender, RoutedEventArgs e)
         {
