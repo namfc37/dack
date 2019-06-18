@@ -63,17 +63,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Book.xaml.cs">
-      <DependentUpon>Book.xaml</DependentUpon>
+    <Compile Include="BillMgrPage.xaml.cs">
+      <DependentUpon>BillMgrPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BookMgrPage.xaml.cs">
+      <DependentUpon>BookMgrPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BookView.xaml.cs">
+      <DependentUpon>BookView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="borrowBook.xaml.cs">
+      <DependentUpon>borrowBook.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LibrarianMgrPage.xaml.cs">
+      <DependentUpon>LibrarianMgrPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerMain.xaml.cs">
+      <DependentUpon>ManagerMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerUser.xaml.cs">
+      <DependentUpon>ManagerUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount.xaml.cs">
+      <DependentUpon>MyAccount.xaml</DependentUpon>
     </Compile>
     <Compile Include="QuanLyThuVienDAO\BookDAO.cs" />
     <Compile Include="QuanLyThuVienDAO\DataProcess.cs" />
-    <Compile Include="ManagerBook.xaml.cs">
-      <DependentUpon>ManagerBook.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ManagerLibrary.xaml.cs">
-      <DependentUpon>ManagerLibrary.xaml</DependentUpon>
-    </Compile>
     <Compile Include="QuanLyThuVienDAO\CustomerDAO.cs" />
     <Compile Include="QuanLyThuVienDAO\SingletonDataProvider.cs" />
     <Compile Include="QuanLyThuVienDTO\BookMgr.cs" />
@@ -84,7 +99,26 @@
     <Compile Include="UILogin.xaml.cs">
       <DependentUpon>UILogin.xaml</DependentUpon>
     </Compile>
-    <Page Include="Book.xaml">
+    <Compile Include="UserMgrPage.xaml.cs">
+      <DependentUpon>UserMgrPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="BillMgrPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BookMgrPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BookView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="borrowBook.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LibrarianMgrPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -100,11 +134,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="ManagerBook.xaml">
+    <Page Include="ManagerMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ManagerLibrary.xaml">
+    <Page Include="ManagerUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MyAccount.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -113,6 +151,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UILogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserMgrPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -152,6 +194,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\billicon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\billicon3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\billicon4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

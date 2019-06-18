@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\
+F:\dack\Source_Code\QuanLyThuVien\obj\Debug\
 QuanLyThuVien
 none
 false
 DEBUG;TRACE
-C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\App.xaml
-6-564974446
+F:\dack\Source_Code\QuanLyThuVien\App.xaml
+12890762985
 
-20-766507956
-17-1591287650
-Book.xaml;MainWindow.xaml;ManagerBook.xaml;ManagerLibrary.xaml;TrangChu.xaml;UILogin.xaml;
+26-34621109
+171107239372
+BillMgrPage.xaml;BookMgrPage.xaml;BookView.xaml;borrowBook.xaml;LibrarianMgrPage.xaml;MainWindow.xaml;ManagerMain.xaml;ManagerUser.xaml;MyAccount.xaml;TrangChu.xaml;UILogin.xaml;UserMgrPage.xaml;
 
-False
+True
 

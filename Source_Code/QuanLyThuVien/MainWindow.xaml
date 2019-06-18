@@ -18,7 +18,7 @@
                
                 <Button Content="Liên Hệ" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center"/>
                 <Button Content="Trạng Thái" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center"/>
-                <Button Content="Tài Khoản Của Tôi" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center"/>
+                <Button Content="Tài Khoản Của Tôi" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center" Click="Button_Click_1"/>
                 <Button Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Bottom" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Click="btnCloseClick">
                     <materialDesign:PackIcon Kind="Power" Foreground="#FFA2A2A2" Width="25" Height="25" />
                 </Button>
@@ -34,7 +34,7 @@
             </StackPanel>
             <Grid x:Name="GridCursor" Width="150" Height="5" Background="#FF2196F3" HorizontalAlignment="Left" Margin="10 0"/>
         </Grid>
-        <Frame x:Name="FrameMain" Height="580">
+        <Frame x:Name="FrameMain" Height="580" NavigationUIVisibility="Hidden">
 
         </Frame>
     </StackPanel>

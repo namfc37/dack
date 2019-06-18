@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace QuanLyThuVien
 {
     /// <summary>
-    /// Interaction logic for ManagerBook.xaml
+    /// Interaction logic for BookMgrPage.xaml
     /// </summary>
-    public partial class ManagerBook : Window
+    public partial class BookMgrPage : Page
     {
-        public ManagerBook()
+        public BookMgrPage()
         {
             InitializeComponent();
         }
@@ -32,7 +33,7 @@ namespace QuanLyThuVien
             switch (index)
             {
                 case 0:
-                    
+
                     break;
                 case 1:
 

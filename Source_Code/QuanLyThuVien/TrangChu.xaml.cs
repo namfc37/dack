@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace QuanLyThuVien
@@ -17,7 +18,7 @@ namespace QuanLyThuVien
     /// <summary>
     /// Interaction logic for TrangChu.xaml
     /// </summary>
-    public partial class TrangChu : Window
+    public partial class TrangChu : Page
     {
         public TrangChu()
         {

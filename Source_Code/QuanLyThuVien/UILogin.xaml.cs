@@ -53,21 +53,24 @@ namespace QuanLyThuVien
 
                     this.Close();
                 }
-
-                if(!customerDAO.CheckUserExist(username))
-                {
-                    MessageBox.Show("Tài Khoản Không Tồn Tại !!!");
-                }
                 else
                 {
-                    if (customerDAO.CheckPassword(username, password))
+                    if (!customerDAO.CheckUserExist(username))
                     {
-                        this.Close();
+                        MessageBox.Show("Tài Khoản Không Tồn Tại !!!");
                     }
                     else
                     {
-                        MessageBox.Show("Sai tài khoản hoặc mật khẩu!");
+                        if (customerDAO.CheckPassword(username, password))
+                        {
+                            this.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Sai tài khoản hoặc mật khẩu!");
+                        }
                     }
+
                 }
 
                 //string codePass = MD5Hash(password);

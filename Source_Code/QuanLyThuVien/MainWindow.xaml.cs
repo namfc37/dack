@@ -33,13 +33,14 @@ namespace QuanLyThuVien
             switch (index)
             {
                 case 0:
-                    HostWindowInFrame(FrameMain, new TrangChu());
+                    FrameMain.Content = new TrangChu();
                     break;
                 case 1:
-                    HostWindowInFrame(FrameMain, new Book());
+                    FrameMain.Content = new BookView();
                     break;
                 case 2:
-                    HostWindowInFrame(FrameMain, new ManagerLibrary());
+                    //HostWindowInFrame(FrameMain, new ManagerLibrary());
+                    FrameMain.Content = new ManagerMain();
                     break;
                 case 3:                  
                     break;
@@ -66,6 +67,12 @@ namespace QuanLyThuVien
             win.Content = null;
             fraContainer.Content = new ContentControl() { Content = tmp };
             fraContainer.Background = win.Background;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            FrameMain.Content = new MyAccount();
+
         }
     }
 }

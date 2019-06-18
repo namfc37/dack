@@ -1,9 +1,14 @@
 ﻿
-FC:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\App.xaml;;
-FC:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\Book.xaml;;
-FC:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\MainWindow.xaml;;
-FC:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\ManagerBook.xaml;;
-FC:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\ManagerLibrary.xaml;;
-FC:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\TrangChu.xaml;;
-FC:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\UILogin.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\App.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\BookMgrPage.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\BookView.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\MainWindow.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\ManagerMain.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\ManagerUser.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\TrangChu.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\UILogin.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\UserMgrPage.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\BillMgrPage.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\LibrarianMgrPage.xaml;;
+FF:\dack\Source_Code\QuanLyThuVien\MyAccount.xaml;;
 
