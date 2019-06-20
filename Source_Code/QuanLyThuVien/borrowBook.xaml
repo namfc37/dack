@@ -12,7 +12,8 @@
     <Grid Margin="-8,0,0,0">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="4*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
 
         </Grid.RowDefinitions>
 
@@ -26,16 +27,25 @@
             <Label HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Segoe Print" FontSize="15" Margin="584,0,108,0" Width="116" >24/06/2019
             </Label>
 
-            <Label HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Segoe Print" FontSize="15" Margin="186,0,528,0" >Khách Hàng:
+            <Label HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Segoe Print" FontSize="15" Margin="165,0,528,0" Width="115" >Khách Hàng:
             </Label>
             <Label HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Segoe Print" FontSize="15" Margin="285,0,407,0" Width="116" >UserName
             </Label>
         </Grid>
         <Grid Grid.Row="1" Margin="10,10,10,10">
             <ListView>
-                
+
             </ListView>
         </Grid>
+        <Grid Grid.Row="2">
+            <Label HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Segoe Print" FontSize="15" Margin="102,0,590,32" Width="116" >Thành Tiền :
+            </Label>
 
+            <Label HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Segoe Print" FontSize="15" Margin="218,0,474,32" Width="116" >100000 đ
+            </Label>
+
+            <Button Height="40" Margin="494,22,210,28" >Thanh Toán </Button>
+            <Button Height="40" Margin="650,22,54,28" > Hủy</Button>
+        </Grid>
     </Grid>
 </Page>

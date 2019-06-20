@@ -28,7 +28,7 @@
             </StackPanel>
 
         </Grid>
-        <Frame x:Name="FrameManager" Height="390" NavigationUIVisibility="Hidden">
+        <Frame x:Name="FrameManager"  NavigationUIVisibility="Hidden">
 
         </Frame>
     </StackPanel>

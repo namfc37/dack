@@ -93,6 +93,7 @@
     <Compile Include="QuanLyThuVienDAO\KindOfBookDAO.cs" />
     <Compile Include="QuanLyThuVienDAO\SingletonDataProvider.cs" />
     <Compile Include="QuanLyThuVienDTO\BookMgr.cs" />
+    <Compile Include="QuanLyThuVienDTO\CartBook.cs" />
     <Compile Include="QuanLyThuVienDTO\Customer.cs" />
     <Compile Include="QuanLyThuVienDTO\KindOfBook.cs" />
     <Compile Include="TrangChu.xaml.cs">
@@ -199,9 +200,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\user.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image\billicon3.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\billicon4.png" />

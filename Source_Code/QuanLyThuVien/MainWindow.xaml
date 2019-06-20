@@ -17,7 +17,7 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="20 0">
                
                 <Button Content="Liên Hệ" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center"/>
-                <Button Content="Trạng Thái" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center"/>
+                <Button Content="Giỏ Sách" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center"/>
                 <Button Content="Tài Khoản Của Tôi" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center" Click="Button_Click_1"/>
                 <Button Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Bottom" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Click="btnCloseClick">
                     <materialDesign:PackIcon Kind="Power" Foreground="#FFA2A2A2" Width="25" Height="25" />
