@@ -27,17 +27,17 @@
                     <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0">
-                    <TextBox
+                    <TextBox Name="txtIDBook"
                       materialDesign:HintAssist.Hint="Mã Tựa Sách"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="1">
-                    <TextBox
+                    <TextBox Name="txtNameBook"
                       materialDesign:HintAssist.Hint="Tên Tựa Sách"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="2">
-                    <TextBox
+                    <TextBox Name="txtTypeBook"
                       materialDesign:HintAssist.Hint="Thể Loại"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
@@ -49,17 +49,17 @@
                     <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0">
-                    <TextBox
+                    <TextBox Name="txtTacGia"
                       materialDesign:HintAssist.Hint="Tác Giả"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="1">
-                    <TextBox
+                    <TextBox Name="txtCount"
                       materialDesign:HintAssist.Hint="Số Lượng"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="2">
-                    <TextBox
+                    <TextBox Name="txtPosition"
                       materialDesign:HintAssist.Hint="Vị Trí"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
@@ -94,10 +94,10 @@
                 </StackPanel>
             </Grid>
             <Grid Grid.Row="1">
-                <ListView Margin="15" Name="ListBook">
+                <ListView Margin="15" Name="ListBook" SelectionChanged="ListBook_SelectionChanged">
                     <ListView.View>
                         <GridView>
-                            <GridViewColumn Header="ID" DisplayMemberBinding="{Binding idSach}"></GridViewColumn>
+                            <GridViewColumn x:Name="idSach" Header="ID" DisplayMemberBinding="{Binding idSach}"></GridViewColumn>
                             <GridViewColumn Header="Tên Sách" DisplayMemberBinding="{Binding TenSach}"></GridViewColumn>
                             <GridViewColumn Header="Mã Loại" DisplayMemberBinding="{Binding LoaiSach}"></GridViewColumn>
                             <GridViewColumn Header="Số Lượng" DisplayMemberBinding="{Binding SoLuong}"></GridViewColumn>

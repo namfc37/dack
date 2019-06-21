@@ -1,6 +1,7 @@
 ﻿using QuanLyThuVien.QuanLyThuVienDAO;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -51,6 +52,23 @@ namespace QuanLyThuVien
                 case 4:
                     break;
             }
+        }
+
+        private void ListUser_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            DataRowView user = ListUser.SelectedItem as DataRowView;
+
+            if(user!=null)
+            {
+                txtId.Text = user.Row[0].ToString();
+                txtName.Text = user.Row[2] as string;
+                txtDiaChi.Text = user.Row[1] as string;
+                txtDate.Text = user.Row[3].ToString();
+                txtType.Text = user.Row[4].ToString();
+                txtMoney.Text = user.Row[5].ToString();
+            }
+
+
         }
     }
 }

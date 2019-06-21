@@ -27,17 +27,17 @@
                     <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0">
-                    <TextBox
+                    <TextBox Name="txtId"
                       materialDesign:HintAssist.Hint="Mã Người Dùng"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="1">
-                    <TextBox
+                    <TextBox Name="txtName"
                       materialDesign:HintAssist.Hint="Tên Người Dùng"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="2">
-                    <TextBox
+                    <TextBox Name="txtDiaChi"
                       materialDesign:HintAssist.Hint="Địa Chỉ"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
@@ -49,17 +49,17 @@
                     <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0">
-                    <TextBox
+                    <TextBox Name="txtDate"
                       materialDesign:HintAssist.Hint="Ngày Sinh"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="1">
-                    <TextBox
+                    <TextBox Name="txtType"
                       materialDesign:HintAssist.Hint="Loại Người Dùng"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="2">
-                    <TextBox
+                    <TextBox Name="txtMoney"
                       materialDesign:HintAssist.Hint="Tài Khoản"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
@@ -94,7 +94,7 @@
                 </StackPanel>
             </Grid>
             <Grid Grid.Row="1">
-                <ListView Margin="15" Name="ListUser">
+                <ListView Margin="15" Name="ListUser" SelectionChanged="ListUser_SelectionChanged">
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="ID" DisplayMemberBinding="{Binding idUser}"></GridViewColumn>

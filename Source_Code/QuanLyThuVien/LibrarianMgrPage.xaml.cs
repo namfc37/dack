@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,6 +46,23 @@ namespace QuanLyThuVien
                     break;
                 case 4:
                     break;
+            }
+        }
+
+        private void ListItem_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            DataRowView librarian = ListItem.SelectedItem as DataRowView;
+
+
+            if (librarian != null)
+            {
+                //txtID.Text = librarian.Row[0].ToString();
+                //txtName.Text = librarian.Row[1] as string;
+                //txtCMND.Text = librarian.Row[2] as string;
+                //txtDate.Text = librarian.Row[3].ToString();
+                //txtLevel.Text = librarian.Row[4].ToString();
+               
+
             }
         }
     }

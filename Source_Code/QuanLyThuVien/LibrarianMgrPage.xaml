@@ -27,17 +27,17 @@
                     <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0">
-                    <TextBox
+                    <TextBox Name="txtID"
                       materialDesign:HintAssist.Hint="Mã Quản Lý"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="1">
-                    <TextBox
+                    <TextBox Name="txtName"
                       materialDesign:HintAssist.Hint="Tên Quản Lý"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="2">
-                    <TextBox
+                    <TextBox Name="txtCMND"
                       materialDesign:HintAssist.Hint="CMND"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
@@ -49,12 +49,12 @@
                     <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0">
-                    <TextBox
+                    <TextBox Name="txtDate"
                       materialDesign:HintAssist.Hint="Ngày Sinh"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
                 <Grid Grid.Row="1">
-                    <TextBox
+                    <TextBox Name="txtLevel"
                       materialDesign:HintAssist.Hint="Cấp Quản Lý"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
@@ -90,7 +90,7 @@
                 </StackPanel>
             </Grid>
             <Grid Grid.Row="1">
-                <ListView Margin="15" Name="ListItem">
+                <ListView Margin="15" Name="ListItem" SelectionChanged="ListItem_SelectionChanged">
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="ID" DisplayMemberBinding="{Binding ID}"></GridViewColumn>

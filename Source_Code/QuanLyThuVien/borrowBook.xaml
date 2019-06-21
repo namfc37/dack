@@ -44,8 +44,8 @@
             <Label HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Segoe Print" FontSize="15" Margin="218,0,474,32" Width="116" >100000 đ
             </Label>
 
-            <Button Height="40" Margin="494,22,210,28" >Thanh Toán </Button>
-            <Button Height="40" Margin="650,22,54,28" > Hủy</Button>
+            <Button Height="40" Width="120" Margin="496,22,204,28" >Thanh Toán</Button>
+            <Button Height="40" Width="120" Margin="650,22,54,28" >Hủy</Button>
         </Grid>
     </Grid>
 </Page>
