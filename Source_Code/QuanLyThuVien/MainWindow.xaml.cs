@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyThuVien.QuanLyThuVienDTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,20 @@ namespace QuanLyThuVien
             InitializeComponent();
             Window UILogin = new UILogin();
             UILogin.ShowDialog();
+
+            if(User.getUserID() ==0)
+            {
+                this.Close();
+            }
+
+            if(User.getLoai() ==1)
+            {
+                btnManager.IsEnabled = true;
+            }
+            else if(User.getLoai()==2)
+            {
+                btnManager.IsEnabled = false;
+            }
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -74,6 +89,11 @@ namespace QuanLyThuVien
         {
             FrameMain.Content = new MyAccount();
 
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            //FrameMain.Content = new
         }
     }
 }

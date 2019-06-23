@@ -40,6 +40,7 @@ namespace QuanLyThuVien
             open();
             dtab = new DataTable();
             cmd = new SqlCommand(Sql, con);
+            
             da = new SqlDataAdapter(cmd);
             da.Fill(dtab);
             close();

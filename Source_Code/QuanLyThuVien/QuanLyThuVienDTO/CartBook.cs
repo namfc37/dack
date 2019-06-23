@@ -6,23 +6,11 @@ using System.Threading.Tasks;
 
 namespace QuanLyThuVien.QuanLyThuVienDTO
 {
-    class CartBook
+    public static class CartBook
     {
-        private static CartBook _ins;
-        public static CartBook Ins
-        {
-            get
-            {
-                if (_ins == null)
-                {
-                    _ins = new CartBook();
-                }
-                return _ins;
-            }
-            set
-            {
-                _ins = value;
-            }
-        }
+        private static List<BookMgr> ListBook = new List<BookMgr>();
+
+        public static void AddBook(BookMgr book) => ListBook.Add(book);
+        public static List<BookMgr> GetList() => ListBook;
     }
 }

@@ -35,5 +35,16 @@ namespace QuanLyThuVien.QuanLyThuVienDAO
             if (data.Rows.Count > 0) return true;
             else return false;
         }
+
+        public DataTable loadInfoUser(String username)
+        {
+            String sql = "Select * from nguoidung where CMND = '" + username + "'";
+            return SingletonDataProvider.Ins.DataBase.truyvan(sql);
+        }
+        public DataTable loadInfoUserbyId(int id)
+        { 
+            String sql = "Select * from nguoidung where idUser = " + id ;
+            return SingletonDataProvider.Ins.DataBase.truyvan(sql);
+        }
     }
 }

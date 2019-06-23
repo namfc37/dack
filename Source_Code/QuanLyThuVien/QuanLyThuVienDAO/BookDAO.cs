@@ -21,6 +21,13 @@ namespace QuanLyThuVien.QuanLyThuVienDAO
 
         }
 
+        public DataTable FindBookbyId(int id)
+        {
+            String sql = " Select * from Sach Where idSach= " + id;
+            return SingletonDataProvider.Ins.DataBase.truyvan(sql);
+
+        }
+
         public DataTable LoadList()
         {
             String sql = " Select * from Sach";

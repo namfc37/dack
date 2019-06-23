@@ -1,4 +1,5 @@
 ﻿using QuanLyThuVien.QuanLyThuVienDAO;
+using QuanLyThuVien.QuanLyThuVienDTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -63,6 +64,11 @@ namespace QuanLyThuVien
                     {
                         if (customerDAO.CheckPassword(username, password))
                         {
+                            var data = customerDAO.loadInfoUser(username);
+
+                            User.setUserID(int.Parse(data.Rows[0]["idUser"].ToString()));
+                            User.setLoai(int.Parse(data.Rows[0]["LoaiNguoiDung"].ToString()));
+                            //MessageBox.Show(data.Rows[0]["idUser"].ToString());
                             this.Close();
                         }
                         else

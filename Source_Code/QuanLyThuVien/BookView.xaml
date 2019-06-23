@@ -45,8 +45,8 @@
                             <TextBlock Text="{Binding TenSach}" Margin="550,5,150,5"></TextBlock>
                             <TextBlock Text="{Binding Gia}" Margin="650,5,0,5"></TextBlock>
                             <TextBlock Text="{Binding SoLuong}" Margin="800,5,0,5"></TextBlock>
-                            <Button Margin="850,5,0,5">
-                                <materialDesign:PackIcon Kind="Basket" />
+                            <Button Margin="850,5,0,5" Click="Button_Click_1">
+                                <materialDesign:PackIcon Kind="Basket"/>
                             </Button>
                         </Canvas>
                     </DataTemplate>

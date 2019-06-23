@@ -47,21 +47,21 @@
                     <Grid Grid.Row="1">
                         <StackPanel Orientation="Horizontal">
                             <Label HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Tên Tài Khoản :</Label>
-                            <Label HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">User Name</Label>
+                            <Label Name="txtName" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">User Name</Label>
                         </StackPanel>
                         
                     </Grid>
                     <Grid Grid.Row="2">
                         <StackPanel Orientation="Horizontal">
                             <Label HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Ngày Sinh :</Label>
-                            <Label HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Date</Label>
+                            <Label Name="txtDateofBirth" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Date</Label>
                         </StackPanel>
 
                     </Grid>
                     <Grid Grid.Row="3">
                         <StackPanel Orientation="Horizontal">
                             <Label HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Tài Khoản :</Label>
-                            <Label HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Money</Label>
+                            <Label Name="txtMoney" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Money</Label>
                         </StackPanel>
 
                     </Grid>
@@ -79,7 +79,7 @@
                             <Grid VerticalAlignment="Center" HorizontalAlignment="Center" >
                                 <materialDesign:PackIcon Kind="PhoneClassic" Margin="5,0,0,0" />
                             </Grid>
-                            <Label HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Phone NumBer</Label>
+                            <Label Name="txtPhone" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Phone NumBer</Label>
                         </StackPanel>
 
                     </Grid>
@@ -88,7 +88,7 @@
                             <Grid VerticalAlignment="Center" HorizontalAlignment="Center" >
                                 <materialDesign:PackIcon Kind="Lock" Margin="5,0,0,0" />
                             </Grid>
-                            <Label HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Pass</Label>
+                            <Label Name="txtPass" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">Pass</Label>
                         </StackPanel>
 
                     </Grid>
@@ -97,7 +97,7 @@
                             <Grid VerticalAlignment="Center" HorizontalAlignment="Center" >
                                 <materialDesign:PackIcon Kind="Information" Margin="5,0,0,0" />
                             </Grid>
-                            <Label HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">CMND</Label>
+                            <Label Name="txtCMND" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Segoe Print" FontSize="17" Margin="20,0,0,0">CMND</Label>
                         </StackPanel>
 
                     </Grid>

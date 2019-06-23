@@ -88,6 +88,7 @@
       <DependentUpon>MyAccount.xaml</DependentUpon>
     </Compile>
     <Compile Include="QuanLyThuVienDAO\BookDAO.cs" />
+    <Compile Include="QuanLyThuVienDAO\borrowBookDAO.cs" />
     <Compile Include="QuanLyThuVienDAO\DataProcess.cs" />
     <Compile Include="QuanLyThuVienDAO\CustomerDAO.cs" />
     <Compile Include="QuanLyThuVienDAO\KindOfBookDAO.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="QuanLyThuVienDTO\CartBook.cs" />
     <Compile Include="QuanLyThuVienDTO\Customer.cs" />
     <Compile Include="QuanLyThuVienDTO\KindOfBook.cs" />
+    <Compile Include="QuanLyThuVienDTO\User.cs" />
     <Compile Include="TrangChu.xaml.cs">
       <DependentUpon>TrangChu.xaml</DependentUpon>
     </Compile>

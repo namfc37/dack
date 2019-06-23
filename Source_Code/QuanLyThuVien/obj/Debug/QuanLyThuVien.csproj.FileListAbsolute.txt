@@ -140,3 +140,4 @@ C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\MyAccount.baml
 C:\Users\Admins\Desktop\DACK\Source_Code\QuanLyThuVien\obj\Debug\UserMgrPage.baml
 F:\dack\Source_Code\QuanLyThuVien\obj\Debug\borrowBook.g.cs
 F:\dack\Source_Code\QuanLyThuVien\obj\Debug\borrowBook.baml
+F:\dack\Source_Code\QuanLyThuVien\obj\Debug\GeneratedInternalTypeHelper.g.cs
