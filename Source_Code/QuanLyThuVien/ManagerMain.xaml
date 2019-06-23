@@ -25,6 +25,9 @@
                 <Button Uid="3" Width="100" Click="Button_AnswerClick" Margin="0,0,50,0">
                     <Image Source="Image/billicon2.png" Height="22" Width="22"></Image>
                 </Button>
+                <Button Uid="4" Width="100" Click="Button_AnswerClick" Margin="0,0,50,0">
+                    <Image Source="Image/iconRule.png" Height="22" Width="22"></Image>
+                </Button>
             </StackPanel>
 
         </Grid>

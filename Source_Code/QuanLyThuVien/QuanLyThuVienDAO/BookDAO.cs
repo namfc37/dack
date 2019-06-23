@@ -34,6 +34,7 @@ namespace QuanLyThuVien.QuanLyThuVienDAO
             return SingletonDataProvider.Ins.DataBase.truyvan(sql);
         }
 
+
         public void Insert(BookMgr book)
         {
             String sql = "INSERT INTO Sach  VALUES(" + book.idSach + ", '" + book.TenSach + "', " + book.LoaiSach + ", " + book.SoLuong + ", " + book.Gia + ", " + book.NamSanXuat + "," + book.ViTri + ") ";

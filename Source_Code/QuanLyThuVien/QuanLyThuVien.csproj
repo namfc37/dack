@@ -92,12 +92,17 @@
     <Compile Include="QuanLyThuVienDAO\DataProcess.cs" />
     <Compile Include="QuanLyThuVienDAO\CustomerDAO.cs" />
     <Compile Include="QuanLyThuVienDAO\KindOfBookDAO.cs" />
+    <Compile Include="QuanLyThuVienDAO\RegulationsDAO.cs" />
     <Compile Include="QuanLyThuVienDAO\SingletonDataProvider.cs" />
     <Compile Include="QuanLyThuVienDTO\BookMgr.cs" />
     <Compile Include="QuanLyThuVienDTO\CartBook.cs" />
     <Compile Include="QuanLyThuVienDTO\Customer.cs" />
     <Compile Include="QuanLyThuVienDTO\KindOfBook.cs" />
+    <Compile Include="QuanLyThuVienDTO\Regulations.cs" />
     <Compile Include="QuanLyThuVienDTO\User.cs" />
+    <Compile Include="RegulationsPage.xaml.cs">
+      <DependentUpon>RegulationsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TrangChu.xaml.cs">
       <DependentUpon>TrangChu.xaml</DependentUpon>
     </Compile>
@@ -148,6 +153,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MyAccount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegulationsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -205,6 +214,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\billicon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\iconRule.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

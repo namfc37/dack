@@ -38,7 +38,7 @@
                 </Grid>
                 <Grid Grid.Row="2">
                     <TextBox Name="txtCMND"
-                      materialDesign:HintAssist.Hint="CMND"
+                      materialDesign:HintAssist.Hint="User Name"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 </Grid>
             </Grid>

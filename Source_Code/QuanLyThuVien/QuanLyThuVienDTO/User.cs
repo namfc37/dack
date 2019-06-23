@@ -11,6 +11,7 @@ namespace QuanLyThuVien.QuanLyThuVienDTO
         private static int userId=0;
         private static int loaiUser=0;
         private static decimal moneyUser=0;
+        private static string userName;
 
         public static void setUserID( int id)
         {
@@ -20,7 +21,14 @@ namespace QuanLyThuVien.QuanLyThuVienDTO
         {
             loaiUser = loaiuser;
         }
-
+        public static void setUserName(string name)
+        {
+            userName = name;
+        }
+        public static string getUserName()
+        {
+            return userName;
+        }
         public static int getUserID()
         {
             return userId;
@@ -39,6 +47,17 @@ namespace QuanLyThuVien.QuanLyThuVienDTO
         public static decimal getMoney()
         {
             return moneyUser;
+        }
+
+        public static int calculateAge(DateTime time)
+        {
+            var today = DateTime.Today;
+            // Calculate the age.
+            var age = today.Year - time.Year;
+            // Go back to the year the person was born in case of a leap year
+            if (time.Date > today.AddYears(-age)) age--;
+
+            return age;
         }
     }
 }

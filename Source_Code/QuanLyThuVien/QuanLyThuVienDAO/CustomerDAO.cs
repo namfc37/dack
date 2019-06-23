@@ -23,14 +23,14 @@ namespace QuanLyThuVien.QuanLyThuVienDAO
         }
          public bool CheckUserExist(String username)
         {
-            String sql = " Select * from nguoidung where CMND = '"+ username+"'";
+            String sql = " Select * from nguoidung where userName = '"+ username+"'";
             var data = SingletonDataProvider.Ins.DataBase.truyvan(sql);
             if (data.Rows.Count > 0) return true;
             else return false;
         }
         public bool CheckPassword(String username, String pass)
         {
-            String sql = " Select * from nguoidung where MatKhau = '" + pass +"' AND CMND = '"+username+"'" ;
+            String sql = " Select * from nguoidung where MatKhau = '" + pass +"' AND userName = '"+username+"'" ;
             var data = SingletonDataProvider.Ins.DataBase.truyvan(sql);
             if (data.Rows.Count > 0) return true;
             else return false;
@@ -38,7 +38,7 @@ namespace QuanLyThuVien.QuanLyThuVienDAO
 
         public DataTable loadInfoUser(String username)
         {
-            String sql = "Select * from nguoidung where CMND = '" + username + "'";
+            String sql = "Select * from nguoidung where userName = '" + username + "'";
             return SingletonDataProvider.Ins.DataBase.truyvan(sql);
         }
         public DataTable loadInfoUserbyId(int id)

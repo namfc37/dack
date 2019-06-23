@@ -23,10 +23,22 @@ namespace QuanLyThuVien
     public partial class UILogin : Window
     {
         private CustomerDAO customerDAO;
+        private RegulationsDAO regulationsDAO;
         public UILogin()
         {
             InitializeComponent();
             customerDAO = new CustomerDAO();
+            regulationsDAO = new RegulationsDAO();
+
+            var regulation = regulationsDAO.LoadList();
+
+            Regulations.TuoiToiThieu = int.Parse(regulation.Rows[0]["TuoiToiThieu"].ToString());
+            Regulations.TuoiToiDa = int.Parse(regulation.Rows[0]["TuoiToiDa"].ToString());
+            Regulations.ThoiHanThe = int.Parse(regulation.Rows[0]["ThoiHanThe"].ToString());
+            Regulations.SoLuongSachToiDa = int.Parse(regulation.Rows[0]["SoLuongSachToiDa"].ToString());
+            Regulations.SoLuongLoai = int.Parse(regulation.Rows[0]["SoLuongLoai"].ToString());
+            Regulations.SoNgayMuonToiDa = int.Parse(regulation.Rows[0]["SoNgayMuonToiDa"].ToString());
+
         }
 
 
@@ -64,10 +76,19 @@ namespace QuanLyThuVien
                     {
                         if (customerDAO.CheckPassword(username, password))
                         {
+                           
                             var data = customerDAO.loadInfoUser(username);
+                            var age = User.calculateAge(DateTime.Parse(data.Rows[0]["ngaysinh"].ToString()));
+                            if (age>Regulations.TuoiToiDa || age<Regulations.TuoiToiThieu)
+                            {
+                                MessageBox.Show("Tuổi Tài Khoản Không Hợp Lệ !!");
+                                return;
+                            }
 
                             User.setUserID(int.Parse(data.Rows[0]["idUser"].ToString()));
                             User.setLoai(int.Parse(data.Rows[0]["LoaiNguoiDung"].ToString()));
+                            User.setMoney(decimal.Parse(data.Rows[0]["TaiKhoan"].ToString()));
+                            User.setUserName(data.Rows[0]["TenNguoiDung"].ToString());
                             //MessageBox.Show(data.Rows[0]["idUser"].ToString());
                             this.Close();
                         }
@@ -96,6 +117,8 @@ namespace QuanLyThuVien
             }
         }
 
+
+        
 
         private void btnFacebook_Click(object sender, RoutedEventArgs e)
         {

@@ -46,5 +46,11 @@ namespace QuanLyThuVien.QuanLyThuVienDAO
             string sql = "Select * from PhieuMuonSach";
             return SingletonDataProvider.Ins.DataBase.truyvan(sql);
         }
+
+        public DataTable loadListTop()
+        {
+            string sql = "Select Top 10 idSach,COUNT(idSach) from PhieuMuon_Sach Group By(idSach)";
+            return SingletonDataProvider.Ins.DataBase.truyvan(sql);
+        }
     }
 }

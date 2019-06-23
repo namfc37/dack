@@ -15,5 +15,7 @@ namespace QuanLyThuVien.QuanLyThuVienDTO
         public int LoaiNguoiDung { get; set; }
         public String UserName { get; set; }
         public String MatKhau { get; set; }
+
+        
     }
 }

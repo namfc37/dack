@@ -87,7 +87,7 @@
                     <Button Uid="4" Height="40" Width="80" Click="Button_AnswerClick" Margin="0,0,20,0">
                         <materialDesign:PackIcon Kind="Cancel" Height="22" Width="22"/>
                     </Button>
-                    <TextBox  Width="400"
+                    <TextBox  Width="400" 
                       materialDesign:HintAssist.Hint="Seach"
                       FontSize="20"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />

@@ -63,6 +63,12 @@ namespace QuanLyThuVien
 
             //MessageBox.Show(int.Parse(book.Row[0].ToString()) + book.Row[1].ToString() + int.Parse(book.Row[2].ToString()) + int.Parse(book.Row[3].ToString()) +decimal.Parse(book.Row[4].ToString())+ int.Parse(book.Row[5].ToString()) + book.Row[6].ToString() + book.Row[7].ToString());
             BookMgr bookmgr = new BookMgr(int.Parse(book.Row[0].ToString()),book.Row[1].ToString(), int.Parse(book.Row[2].ToString()), int.Parse(book.Row[3].ToString()), decimal.Parse(book.Row[4].ToString()), int.Parse(book.Row[5].ToString()),book.Row[6].ToString(),book.Row[7].ToString());
+
+            if(CartBook.GetList().Count() == Regulations.SoLuongSachToiDa )
+            {
+                MessageBox.Show("Số Sách Mượn Đã Tối Đa");
+                return;
+            }
             CartBook.AddBook(bookmgr);
 
             //DataRowView librarian = ListBook.SelectedItem as DataRowView;

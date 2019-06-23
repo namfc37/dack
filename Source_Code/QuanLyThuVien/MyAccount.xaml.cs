@@ -31,12 +31,12 @@ namespace QuanLyThuVien
             var info = customerDAO.loadInfoUserbyId(User.getUserID());
 
             
-            txtName.Content = info.Rows[0]["idUser"].ToString();
+            txtName.Content = info.Rows[0]["TenNguoiDung"].ToString();
             txtDateofBirth.Content = info.Rows[0]["ngaysinh"].ToString().Split()[0];
-            txtCMND.Content = info.Rows[0]["CMND"].ToString();
+            txtCMND.Content = info.Rows[0]["Email"].ToString();
             txtPhone.Content =  info.Rows[0]["idUser"].ToString();
             txtPass.Content = info.Rows[0]["MatKhau"].ToString(); 
-            txtMoney.Content = info.Rows[0]["idUser"].ToString(); 
+            txtMoney.Content = info.Rows[0]["TaiKhoan"].ToString(); 
 
         }
     }

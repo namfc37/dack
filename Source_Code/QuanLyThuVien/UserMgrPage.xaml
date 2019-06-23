@@ -98,7 +98,7 @@
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="ID" DisplayMemberBinding="{Binding idUser}"></GridViewColumn>
-                            <GridViewColumn Header="Username" DisplayMemberBinding="{Binding CMND}"></GridViewColumn>
+                            <GridViewColumn Header="Username" DisplayMemberBinding="{Binding userName}"></GridViewColumn>
                             <GridViewColumn Header="Địa Chỉ" DisplayMemberBinding="{Binding diachi}"></GridViewColumn>
                             <GridViewColumn Header="Ngày Sinh" DisplayMemberBinding="{Binding ngaysinh}"></GridViewColumn>
                             <GridViewColumn Header="Loại Người Dùng" DisplayMemberBinding="{Binding LoaiNguoiDung}"></GridViewColumn>

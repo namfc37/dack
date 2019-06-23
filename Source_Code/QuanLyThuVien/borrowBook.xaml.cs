@@ -25,9 +25,11 @@ namespace QuanLyThuVien
         private List<BookMgr> listBook = new List<BookMgr>();
         private borrowBookDAO borrowBookDao = new borrowBookDAO();
         private BookDAO bookDAO = new BookDAO();
+        private decimal totalMoney = 0;
         public borrowBook()
         {
             InitializeComponent();
+            txtUserName.Content = User.getUserName();
 
             dateTimePicker1.Text = DateTime.Today.ToString();
             listBook = CartBook.GetList();
@@ -40,7 +42,7 @@ namespace QuanLyThuVien
 
             //MessageBox.Show(listId.ToString());
 
-            decimal totalMoney = 0;
+            
             for(int i=0;i<listBook.Count();i++)
             {
                 totalMoney += listBook[i].Gia;
@@ -51,15 +53,40 @@ namespace QuanLyThuVien
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
-            var test= DateTime.Parse(dateTimePicker2.Text).ToString().Split()[0];
+            if(totalMoney > User.getMoney())
+            {
+                MessageBox.Show("Số Tiền Lớn Hơn Số Tiền Của Bạn"); return;
+            }
+
+
+            if (dateTimePicker2.Text.Length == 0) { MessageBox.Show("Hãy Nhập Ngày Trả"); return; }
+
+            DateTime d1 = DateTime.Today;
+            DateTime d2 = DateTime.Parse(dateTimePicker2.Text);
+            TimeSpan t = d2 - d1;
+            var test = DateTime.Parse(dateTimePicker2.Text).ToString().Split()[0];
+
+
+            if (t.TotalDays <=0)
+            {
+                MessageBox.Show("Ngày Trả Không Hợp Lệ"); return;
+            }
+
+            if (t.TotalDays > Regulations.SoNgayMuonToiDa)
+            {
+                MessageBox.Show("Ngày Trả Phải Sớm Hơn"); return;
+            }
             //MessageBox.Show(test.ToString());
+
+
 
             if(listBook.Count>0 && test!=null)
             {
                 borrowBookDao.addListBook(test);
             }
-            
+
+            User.setMoney(User.getMoney()-totalMoney);
+            MessageBox.Show("Thanh Toán Thành Công"); return;
         }
     }
 }

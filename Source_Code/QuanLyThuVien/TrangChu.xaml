@@ -6,9 +6,23 @@
       xmlns:local="clr-namespace:QuanLyThuVien"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       Title="TrangChu">
 
     <Grid>
-        
+        <ListView Margin="15" Name="ListBook" SelectionChanged="ListBook_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn x:Name="idSach" Header="ID" DisplayMemberBinding="{Binding idSach}"></GridViewColumn>
+                    <GridViewColumn Header="Tên Sách" DisplayMemberBinding="{Binding TenSach}"></GridViewColumn>
+                    <GridViewColumn Header="Mã Loại" DisplayMemberBinding="{Binding LoaiSach}"></GridViewColumn>
+                    <GridViewColumn Header="Số Lượng" DisplayMemberBinding="{Binding SoLuong}"></GridViewColumn>
+                    <GridViewColumn Header="Giá" DisplayMemberBinding="{Binding Gia}"></GridViewColumn>
+                    <GridViewColumn Header="Năm Sản Xuất" DisplayMemberBinding="{Binding NamSanXuat}"></GridViewColumn>
+                    <GridViewColumn Header="Nhà Sản Xuất" DisplayMemberBinding="{Binding NhaSanXuat}"></GridViewColumn>
+                    <GridViewColumn Header="Vị Trí" DisplayMemberBinding="{Binding ViTri}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Page>

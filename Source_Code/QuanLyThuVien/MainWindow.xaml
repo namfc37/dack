@@ -36,7 +36,7 @@
                 <Button Uid="1" Width="150" Content="Sách" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="Button_Click"/>
                 <Button Name="btnManager" Uid="2" Width="150" Content="Quản Lý" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="Button_Click"/>
                 <Button Uid="3" Width="150" Content="Muợn-Trả" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="Button_Click"/>
-                <Button Uid="4" Width="150" Content="Chính Sách" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="Button_Click"/>
+                <Button Uid="4" Width="150" Content="Quy Định" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="Button_Click"/>
             </StackPanel>
             <Grid x:Name="GridCursor" Width="150" Height="5" Background="#FF2196F3" HorizontalAlignment="Left" Margin="10,48,0,47"/>
         </Grid>

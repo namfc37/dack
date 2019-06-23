@@ -1,5 +1,4 @@
-﻿using QuanLyThuVien.QuanLyThuVienDAO;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,18 +16,13 @@ using System.Windows.Shapes;
 namespace QuanLyThuVien
 {
     /// <summary>
-    /// Interaction logic for TrangChu.xaml
+    /// Interaction logic for RegulationsPage.xaml
     /// </summary>
-    public partial class TrangChu : Page
+    public partial class RegulationsPage : Page
     {
-        private borrowBookDAO borrowBook = new borrowBookDAO();
-        private BookDAO bookDAO = new BookDAO();
-            
-        public TrangChu()
+        public RegulationsPage()
         {
             InitializeComponent();
-
-
         }
     }
 }

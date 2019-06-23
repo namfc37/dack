@@ -29,7 +29,7 @@
 
             <Label HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Segoe Print" FontSize="15" Margin="139,0,554,0" Width="115" >Khách Hàng:
             </Label>
-            <Label HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Segoe Print" FontSize="15" Margin="254,0,438,0" Width="116" >UserName
+            <Label HorizontalAlignment="Center" Name="txtUserName" VerticalAlignment="Bottom" FontFamily="Segoe Print" FontSize="15" Margin="254,0,438,0" Width="130" >UserName
             </Label>
 
             <DatePicker Name="dateTimePicker2"
